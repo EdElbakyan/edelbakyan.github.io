@@ -108,6 +108,12 @@ author:
   location         : 
   email            :
   links:
+    - label: "LinkedIn"
+      icon:  "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eduard-elbakyan-861829210/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/EdElbakyan"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:eduelbak@gmail.com"
@@ -120,15 +126,10 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/EdElbakyan"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "LinkedIn"
-      icon:  "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/eduard-elbakyan-861829210/"
+
 
 # Site Footer
 footer:
@@ -151,6 +152,12 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "LinkedIn"
+      icon:  "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eduard-elbakyan-861829210/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/EdElbakyan"
 
 
 # Reading Files
