@@ -105,7 +105,7 @@ author:
   name             : "Eduard Elbakyan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Penetration Tester \\| OSCP \\| Security+"
-  location         : "Armenia"
+  location         : 
   email            :
   links:
     - label: "Email"
