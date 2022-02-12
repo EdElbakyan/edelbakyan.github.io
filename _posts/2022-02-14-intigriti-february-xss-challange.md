@@ -1,13 +1,12 @@
 ---
-title: "Edge Case: Nested and Mixed Lists"
+title: "Intigriti february xss challange"
 categories:
-  - Edge Case
+  - challanges
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markupp
+  - web
+  - xss
+  - intigriti
+  - challange
 ---
 
 ## Intigriti february xss challange
