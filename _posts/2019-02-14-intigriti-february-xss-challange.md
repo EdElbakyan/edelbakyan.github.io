@@ -14,7 +14,7 @@ The page presents a simple ui in which you are able to input text and get it bac
 
 ![xss](/assets/images/images-int-feb/Pasted_image_20220212222129.png)
 
-![xss](images/Pasted_image_20220212222256.png)
+![xss](/assets/images/images-int-feb/Pasted_image_20220212222256.png)
 
 By inspecting the page source we can see that it gets two parameters q= and first= and checks if the length of q is less than 24 and if it's not it returns an error message.
 
