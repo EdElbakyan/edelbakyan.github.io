@@ -24,7 +24,7 @@ Trying some xss payloads we can see that  ``` <style onload=alert(1)>```  works 
 
 ![xss](/assets/images/images-int-feb/Pasted_image_20220212222605.png)
 
-but as mentioned in challange we need to alert document.domain which in this case will exceed 24 characters.
+but as mentioned in the challange we need to alert document.domain which in this case will exceed 24 characters.
 
 I recognized that I was able to change the value of the "first" parameter in url and if I modify it and use it as part of my payload I may succedd.
 The only way to use the "first" parameter is to evaluate the url. In that case the contents of the "first" parameter would be interpreted and executed as javascript and we may achieve xss.
@@ -45,6 +45,6 @@ So i decided to use %0A which is the new line character and that way our payload
 Finally I was able to get the payload working and alerting document.domain in both chrome and firefox.
 
 POC
-```url
+```javascript
 https://challenge-0222.intigriti.io/challenge/xss.html?q=<style onload=eval(uri)>&first=%0Aalert(document.domain)
 ```
