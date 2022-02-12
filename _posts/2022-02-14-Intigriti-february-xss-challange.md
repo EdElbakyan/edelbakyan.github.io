@@ -14,17 +14,17 @@ tags:
 The page presents a simple ui in which you are able to input text and get it back.
 
 
-![[Pasted image 20220212222129.png]]
+![xss](../images/Pasted image 20220212222129.png)
 
-![[Pasted image 20220212222256.png]]
+![xss](../images/Pasted image 20220212222256.png)
 
 By inspecting the page source we can see that it gets two parameters q= and first= and checks if the length of q is less than 24 and if it's not it returns an error message.
 
-![[Pasted image 20220212222447.png]]
+![xss](../images/Pasted image 20220212222447.png)
 
 Trying some xss payloads we can see that  ``` <style onload=alert(1)>```  works and alerts 1.
 
-![[Pasted image 20220212222605.png]]
+![xss](../images/Pasted image 20220212222605.png)
 
 but as mentioned in challange we need to alert document.domain which in this case will exceed 24 characters.
 
@@ -36,7 +36,7 @@ q=<style onload=eval(uri)>&first=alert(1)
 
 When trying this payload I got an error in  the console and by looking at it i saw that it was because of https://... the ```//``` coming after ```https:``` was interpreted as a comment and because of that the other part of the payload wouldn't execute.
 
-![[Pasted image 20220212223813.png]]
+![xss](../images/Pasted image 20220212223813.png)
 
 So i decided to use %0A which is the new line character and that way our payload would escape the comment and execute.
 
