@@ -9,8 +9,6 @@ tags:
   - challange
 ---
 
-## Intigriti february xss challange
-
 The page presents a simple ui in which you are able to input text and get it back.
 
 
