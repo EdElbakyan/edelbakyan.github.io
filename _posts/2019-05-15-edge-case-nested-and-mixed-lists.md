@@ -7,7 +7,7 @@ tags:
   - css
   - edge case
   - lists
-  - markup
+  - markupp
 ---
 
 ## Intigriti february xss challange
